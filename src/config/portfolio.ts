@@ -10,8 +10,9 @@ export const personalInfo = {
   location: "Tunisia",
   education: "4th Year Engineering Student, ESPRIT — Architecture IT & Cloud Computing",
   github: "https://github.com/chaabinour",
-  linkedin: "", // Add your LinkedIn URL
-  email: "", // Add your email
+  linkedin: "https://www.linkedin.com/in/nour-el-houda-chaabi-10064913a",
+  email: "chaabinourelhouda08@gmail.com",
+  emailAlt: "Chaabi.NourElHouda@esprit.tn",
   availability: "Summer 2026 internship, minimum 2 months",
   heroStatement: "Building infrastructure that anticipates, adapts, performs.",
   aboutHeadline: "From Ghardimaou to Global Infrastructure",
