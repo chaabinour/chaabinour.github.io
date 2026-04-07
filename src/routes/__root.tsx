@@ -31,16 +31,14 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Nour El Houda Chaabi — Cloud & DevOps Engineer" },
+      { name: "description", content: "Portfolio of Nour El Houda Chaabi, 4th-year ESPRIT engineering student specializing in Cloud Architecture, DevOps, and AI-powered infrastructure." },
+      { name: "author", content: "Nour El Houda Chaabi" },
+      { name: "keywords", content: "DevOps intern, Cloud engineer intern, Tunisia cloud engineer, OpenStack AI, Kubernetes, Terraform" },
+      { property: "og:title", content: "Nour El Houda Chaabi — Cloud & DevOps Engineer" },
+      { property: "og:description", content: "AI-powered infrastructure, Kubernetes orchestration, and cloud architecture. Seeking Summer 2026 internship." },
       { property: "og:type", content: "website" },
-      { property: "og:image", content: "https://lovable.dev/opengraph-image-p98pqg.png" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
-      { name: "twitter:image", content: "https://lovable.dev/opengraph-image-p98pqg.png" },
     ],
     links: [
       {
