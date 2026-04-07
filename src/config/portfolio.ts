@@ -41,9 +41,10 @@ export const terminalCommands: Record<string, string> = {
   [3] B2B Application Deployment Pipeline [IN PROGRESS]
   
   Type 'project 1', 'project 2', or 'project 3' for details.`,
-  contact: `LinkedIn:  [TO FILL]
+  contact: `LinkedIn:  linkedin.com/in/nour-el-houda-chaabi-10064913a
   GitHub:    github.com/chaabinour
-  Email:     [TO FILL]
+  Email:     chaabinourelhouda08@gmail.com
+  Alt Email: Chaabi.NourElHouda@esprit.tn
   Location:  Tunisia, Remote Global
   
   "Exploring internship opportunities for Summer 2026"`,

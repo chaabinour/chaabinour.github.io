@@ -74,11 +74,21 @@ export function Contact() {
                 </div>
                 <div className="flex items-center gap-3">
                   <Linkedin size={16} className="text-cyan" />
-                  <span className="text-muted-foreground">{personalInfo.linkedin || "[TO FILL]"}</span>
+                  <a href={personalInfo.linkedin} target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-cyan transition-colors">
+                    linkedin.com/in/nour-el-houda-chaabi
+                  </a>
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail size={16} className="text-cyan" />
-                  <span className="text-muted-foreground">{personalInfo.email || "[TO FILL]"}</span>
+                  <a href={`mailto:${personalInfo.email}`} className="text-foreground hover:text-cyan transition-colors">
+                    {personalInfo.email}
+                  </a>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Mail size={16} className="text-cyan" />
+                  <a href={`mailto:${(personalInfo as any).emailAlt}`} className="text-foreground hover:text-cyan transition-colors">
+                    {(personalInfo as any).emailAlt}
+                  </a>
                 </div>
                 <div className="flex items-center gap-3">
                   <MapPin size={16} className="text-gold" />
