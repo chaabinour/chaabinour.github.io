@@ -1,3 +1,4 @@
+import React from "react";
 // Official-style SVG icons for all technologies
 export function TechIcon({ name, size = 24 }: { name: string; size?: number }) {
   const icons: Record<string, React.ReactNode> = {
