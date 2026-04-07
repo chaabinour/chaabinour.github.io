@@ -10,8 +10,9 @@ export const personalInfo = {
   location: "Tunisia",
   education: "4th Year Engineering Student, ESPRIT — Architecture IT & Cloud Computing",
   github: "https://github.com/chaabinour",
-  linkedin: "", // Add your LinkedIn URL
-  email: "", // Add your email
+  linkedin: "https://www.linkedin.com/in/nour-el-houda-chaabi-10064913a",
+  email: "chaabinourelhouda08@gmail.com",
+  emailAlt: "Chaabi.NourElHouda@esprit.tn",
   availability: "Summer 2026 internship, minimum 2 months",
   heroStatement: "Building infrastructure that anticipates, adapts, performs.",
   aboutHeadline: "From Ghardimaou to Global Infrastructure",
@@ -40,9 +41,10 @@ export const terminalCommands: Record<string, string> = {
   [3] B2B Application Deployment Pipeline [IN PROGRESS]
   
   Type 'project 1', 'project 2', or 'project 3' for details.`,
-  contact: `LinkedIn:  [TO FILL]
+  contact: `LinkedIn:  linkedin.com/in/nour-el-houda-chaabi-10064913a
   GitHub:    github.com/chaabinour
-  Email:     [TO FILL]
+  Email:     chaabinourelhouda08@gmail.com
+  Alt Email: Chaabi.NourElHouda@esprit.tn
   Location:  Tunisia, Remote Global
   
   "Exploring internship opportunities for Summer 2026"`,
